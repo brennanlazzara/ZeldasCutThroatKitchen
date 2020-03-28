@@ -9,10 +9,44 @@ body {
   }
 
 
-div .container {
-    display: inline-block;
+#crest {
+    height: 20vh;
+    margin: 0 auto;
+} 
+
+
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+form {
+    display: inline-grid !important;
+  
+}
+
+#signUp {
+    background-color: #333;
+    color: #f2f2f2;
+    border-radius: 0.5rem;
     text-align: center;
-  }
+    border: 2px red solid;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 10px;
+    font-family: fantasy;  
+    color: #000;
+    text-shadow:
+        3px 3px 0 red,
+      -1px -1px 0 red,  
+       1px -1px 0 red,
+       -1px 1px 0 red,
+        1px 1px 0 red;
+}
+
+button:hover {
+    opacity: 0.75;
+}
 
 #enterBTN {
     background-color: #333;
@@ -65,4 +99,11 @@ h3 {
     1px -1px 0 #000,
    -1px  1px 0 #000,
     1px  1px 0 #000;
+}
+
+
+/* TABLES */
+table {
+    margin: 0 auto;
+    margin-top: 1rem;
 }
