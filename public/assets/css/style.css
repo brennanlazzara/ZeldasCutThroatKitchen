@@ -11,10 +11,14 @@ body {
 
 #crest {
     height: 20vh;
-    margin: 0 auto;
+    margin: 0 15%;
 } 
 
 
+.navbar {
+    display: flex;
+    justify-content:space-between;
+}
 
 .bg-light {
     background-color: transparent !important;
@@ -44,6 +48,9 @@ form {
         1px 1px 0 red;
 }
 
+
+/* BUTTONS */
+
 button:hover {
     opacity: 0.75;
 }
@@ -69,17 +76,28 @@ button:hover {
         1px 1px 0 red;
 }
 
+#toggleBtn {
+    background-color: red;
+}
+
 a:hover {
     opacity: 0.75;
 }
 
+/* FORMS */
+.signIn {
+    margin-left: 10px;
+    text-align: center;
+}
+
+
 h1 {
+    justify-content: flex-start;
     color: red;
     margin-left: 6rem;
     margin-top: 20px;
     font-size: 5vw;
     font-family: fantasy;
-    /* font-weight: bold; */
     text-shadow:
     3px  3px 0 #000,
    -1px -1px 0 #000,  
@@ -89,6 +107,7 @@ h1 {
 }
 
 h3 {
+    justify-content: flex-start;
     color: red;
     margin-left: 20px;
     font-family: fantasy;
@@ -101,4 +120,25 @@ h3 {
     1px  1px 0 #000;
 }
 
+#navbarSupportedContent {
+    justify-content: flex-end;
+}
 
+/* MENU DIV */
+#menuDIV {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* MEDIA QUERIES */
+
+/* @media (min-width: 992px)
+
+.navbar-expand-lg .navbar-collapse {
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    justify-content: flex-end;
+} */
