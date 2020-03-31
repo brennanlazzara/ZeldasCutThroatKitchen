@@ -1,5 +1,5 @@
 body {
-    background-image: url('/public/images/enter.jpg');
+    background-image: url('/images/enter.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -128,8 +128,37 @@ h3 {
 #menuDIV {
     display: flex;
     justify-content: space-between;
+    margin-top: 5%;
 }
 
+
+/* LIST */
+ul {
+ list-style: none; 
+ font-weight: bold;
+ color: red;
+ background-image: url('/images/tableBackground.jpg');
+ background-position: center center;
+ background-repeat: repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ background-color: #464646;
+ margin: 0 auto !important;
+ text-shadow:
+ 3px  3px 0 #000,
+-1px -1px 0 #000,  
+ 1px -1px 0 #000,
+-1px  1px 0 #000,
+ 1px  1px 0 #000;
+}
+
+.dropdown-menu {
+    padding: 0 !important;
+}
+
+li {
+    margin: 0 auto;
+}
 
 /* MEDIA QUERIES */
 

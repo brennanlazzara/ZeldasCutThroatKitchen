@@ -1,8 +1,27 @@
 // Requiring our models and passport as we've configured it
 var db = require("../models");
 var passport = require("../config/passport");
+var recipesJSON = require("../models/recipes.json")
 
 module.exports = function(app) {
+
+  app.get("/api/recipes", function (req, res){
+    res.json(recipesJSON);
+});
+
+  app.post("/api/recipes", function(req, res) {
+  console.log(req.body);
+  // recipes.insertOne([
+  //   "recipes_name", "devoured"
+  // ], [
+  //   req.body.name, 0
+  // ], function(result) {
+  //   // Send back the ID of the new quote
+  //   res.json({ id: result.insertId });
+  // });
+    recipesJSON.drinks.push(req.body);
+    res.status(200);
+});
   // Using the passport.authenticate middleware with our local strategy.
   // If the user has valid login credentials, send them to the members page.
   // Otherwise the user will be sent an error

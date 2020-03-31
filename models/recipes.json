@@ -73,28 +73,6 @@
           "1 Raw Gourmet Meat"
         ]
       },       
-{
-        "item": "Creamy Heart Soup",
-        "requirements": ["Any radish", "Hydromelon", "Voltfruit", "Fresh Milk"],
-        "minHeartsRestored": 8,
-        "maxHeartsRestored": 20,
-        "minSellingPrice": 50,
-        "maxSellingPrice": 170,
-        "notes":
-          "Adding certain items may change results, such as produce Simmered Fruit",
-        "footNotes": ["1 Raw Gourmet Meat", "Same as max possible hearts"]
-      },
-      {
-        "item": "Cream of Vegetable Soup",
-        "requirements": ["Any vegetable", "Fresh Milk", "Rock Salt"],
-        "minHeartsRestored": 1,
-        "maxHeartsRestored": 3,
-        "minSellingPrice": 20,
-        "maxSellingPrice": 40,
-        "notes":
-          "Recipe must use Safflina, Swift Violet, Mighty Thistle, Armoranth, Blue Nightshade or Silent Princess or the recipe will become Veggie Cream Soup",
-        "footNotes": ["Silent Princess", "Silent Princess or Swift Violet"]
-      },
       {
         "item": "Cream of Mushroom Soup",
         "requirements": [
@@ -111,39 +89,6 @@
         "footNotes": [
           "Big Hearty Truffle + Big Hearty Radish + Endura Carrot",
           "1 Big Hearty Truffle + 1 Raw Gourmet Meat + 1 Endura Carrot"
-        ]
-      },
-      {
-        "item": "Carrot Stew",
-        "requirements": [
-          "Any carrot",
-          "Goat Butter",
-          "Fresh Milk",
-          "Tabantha Wheat"
-        ],
-        "minHeartsRestored": 4,
-        "maxHeartsRestored": 15,
-        "minSellingPrice": 40,
-        "maxSellingPrice": 200,
-        "notes": "N/A",
-        "footNotes": [
-          "Adding non-carrot/radish ingredients will override priority and change recipe results",
-          "1 Endura Carrot + 1 Big Hearty Radish",
-          "2 Endura Carrots"
-        ]
-      },
-      {
-        "item": "Creamy Seafood Soup",
-        "requirements": ["Any seafood", "any herb", "Rock Salt", "Fresh Milk"],
-        "minHeartsRestored": 3,
-        "maxHeartsRestored": 22,
-        "minSellingPrice": 20,
-        "maxSellingPrice": 160,
-        "notes":
-          "Recipe must use Safflina, Swift Violet, Mighty Thistle, Armoranth, Blue Nightshade or Silent Princess",
-        "footNotes": [
-          "2 Hearty Salmons + 1 Silent Princess",
-          "2 Sanke Carps + 1 Swift Violet or Silent Princess"
         ]
       },
       {
@@ -177,21 +122,6 @@
           "2 Raw Gourmet Meats + 1 Silent Princess",
           "Same as max possible hearts"
         ]
-      },
-      {
-        "item": "Monster Soup",
-        "requirements": [
-          "Monster Extract",
-          "Goat Butter",
-          "Fresh Milk",
-          "Tabantha Wheat"
-        ],
-        "minHeartsRestored": 6,
-        "maxHeartsRestored": 12,
-        "minSellingPrice": 30,
-        "maxSellingPrice": 140,
-        "notes": "N/A",
-        "footNotes": ["1 Raw Gourmet Meat", "Same as max possible hearts"]
       },
 {
         "item": "Monster Stew",

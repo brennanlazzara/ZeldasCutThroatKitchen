@@ -1,5 +1,5 @@
 var express = require("express");
-
+var recipesJSON = require("/models/recipes.json")
 var router = express.Router();
 
 // Import the model (cat.js) to use its database functions.
@@ -26,3 +26,4 @@ router.post("/api/recipes", function(req, res) {
     res.json({ id: result.insertId });
   });
 });
+
