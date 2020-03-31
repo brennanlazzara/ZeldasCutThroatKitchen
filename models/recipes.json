@@ -144,32 +144,6 @@
 
 "skewers": [
       {
-        "item": "Copious Meat Skewer",
-        "requirements": ["Any four different raw meats"],
-        "minHeartsRestored": 13,
-        "maxHeartsRestored": 19,
-        "minSellingPrice": 160,
-        "maxSellingPrice": 290,
-        "notes": "N/A",
-        "footNotes": [
-          "2 Raw Gourmet Meats + 1 Raw Prime Meat + 1 Raw Meat + 1 Raw Bird Drumstick",
-          "Same as max possible hearts"
-        ]
-      },
-      {
-        "item": "Copious Mushroom Skewer",
-        "requirements": ["Any four different mushrooms"],
-        "minHeartsRestored": 4,
-        "maxHeartsRestored": 19,
-        "minSellingPrice": 40,
-        "maxSellingPrice": 120,
-        "notes": "N/A",
-        "footNotes": [
-          "1 Hearty Truffle + 2 Big Hearty Truffles + 1 Endura Shroom + 1 Hylian Shroom",
-          "2 Big Hearty Truffles + 1 Hearty Truffle + Endura Shroom + 1 Stamella/Ironshroom/Razorshroom"
-        ]
-      },
-      {
         "item": "Copious Seafood Skewer",
         "requirements": ["Any four different fish"],
         "minHeartsRestored": 2,
@@ -193,16 +167,6 @@
         "footNotes": ["4 Sanke Carps + 1 Big Hearty Truffle"]
       },
       {
-        "item": "Fish Skewer",
-        "requirements": ["Any fish"],
-        "minHeartsRestored": 2,
-        "maxHeartsRestored": 10,
-        "minSellingPrice": 10,
-        "maxSellingPrice": 150,
-        "notes": "N/A",
-        "footNotes": []
-      },
-      {
         "item": "Gourmet Spiced Meat Skewer",
         "requirements": ["Raw Gourmet Meat/Raw Whole Bird", "Goron Spice"],
         "minHeartsRestored": 6,
@@ -211,22 +175,6 @@
         "maxSellingPrice": 410,
         "notes": "N/A",
         "footNotes": ["4 Raw Gourmet Meats", "Same as max possible hearts"]
-      },
-      {
-        "item": "Meat Skewer",
-        "requirements": ["Any raw meat"],
-        "minHeartsRestored": 2,
-        "maxHeartsRestored": "See footnotes",
-        "minSellingPrice": 20,
-        "maxSellingPrice": 490,
-        "notes": "N/A",
-        "footNotes": [
-          "5 Raw Gourmet Meats is a full restore",
-          "4 Raw Gourmet Meats + 1 Raw Prime Meat heals 27 hearts, this is the max combo without turning into a full restore",
-          "5 Raw Prime Meats heals 15 hearts",
-          "Same as max possible hearts",
-          "Prime Meat Skewers are generally 43% of the sell-value of Gourmet Meat Skewers"
-        ]
       },
       {
         "item": "Meat and Mushroom Skewer",
@@ -240,16 +188,6 @@
           "4 Gourmet Meats + 1 Endura Shroom",
           "4 Raw Gourmet Meats + 1 Big Hearty Truffle"
         ]
-      },
-      {
-        "item": "Mushroom Skewer",
-        "requirements": ["Any mushroom"],
-        "minHeartsRestored": 1,
-        "maxHeartsRestored": 10,
-        "minSellingPrice": 10,
-        "maxSellingPrice": 210,
-        "notes": "N/A",
-        "footNotes": ["5 Big Hearty Truffles"]
       },
       {
         "item": "Prime Spiced Meat Skewer",
@@ -280,31 +218,6 @@
         "footNotes": ["3 Raw Whole Birds", "Same as max possible hearts"]
       },
 {
-        "item": "Meat Curry",
-        "requirements": ["Raw Meat", "Hylian Rice", "Goron Spice"],
-        "minHeartsRestored": 4,
-        "maxHeartsRestored": 8,
-        "minSellingPrice": 40,
-        "maxSellingPrice": 90,
-        "notes": "N/A",
-        "footNotes": ["3 Raw Meats", "Same as max possible hearts"]
-      },
-{
-        "item": "Poultry Curry",
-        "requirements": [
-          "Raw Bird Drumstick",
-          "Bird Egg",
-          "Hylian Rice",
-          "Goat Butter"
-        ],
-        "minHeartsRestored": 6,
-        "maxHeartsRestored": 8,
-        "minSellingPrice": 40,
-        "maxSellingPrice": 90,
-        "notes": "N/A",
-        "footNotes": ["3 Raw Bird Drumsticks", "Same as max possible hearts"]
-      },
-{
         "item": "Prime Meat Curry",
         "requirements": ["Raw Prime Meat", "Hylian Rice", "Goron Spice"],
         "minHeartsRestored": 5,
@@ -314,16 +227,6 @@
         "notes": "N/A",
         "footNotes": ["3 Raw Prime Meats", "Same as max possible hearts"]
       },
-{
-        "item": "Prime Poultry Curry",
-        "requirements": ["Raw Bird Thigh", "Hylian Rice", "Goron Spice"],
-        "minHeartsRestored": 5,
-        "maxHeartsRestored": 11,
-        "minSellingPrice": 50,
-        "maxSellingPrice": 150,
-        "notes": "N/A",
-        "footNotes": ["3 Raw Bird Thighs", "Same as max possible hearts"]
-},
 {
         "item": "Seafood Curry",
         "requirements": [
@@ -352,16 +255,6 @@
           "Adding meat, fish, Goat Butter, mushrooms or vegetables will change the recipe",
         "footNotes": ["3 Courser Bee Honeys", "3 Hearty Durians"]
 },
-{
-        "item": "Curry Pilaf",
-        "requirements": ["Hylian Rice", "Goat Butter", "Goron Spice"],
-        "minHeartsRestored": 2,
-        "maxHeartsRestored": 10,
-        "minSellingPrice": 30,
-        "maxSellingPrice": 140,
-        "notes": "Adding meat, vegetables or mushrooms will change the recipe",
-        "footNotes": ["2 Courser Bee Honeys", "2 Sanke Carps"]
-      },
 {
         "item": "Vegetable Curry",
         "requirements": ["Any carrot or pumpkin", "Goron Spice", "Hylian Rice"],
@@ -422,32 +315,6 @@
         "footNotes": ["1 Raw Gourmet Meat", "Same as max possible hearts"]
       },
       {
-        "item": "Fruit Pie",
-        "requirements": [
-          "Any fruit",
-          "Goat Butter",
-          "Cane Sugar",
-          "Tabantha Wheat"
-        ],
-        "minHeartsRestored": 3,
-        "maxHeartsRestored": 10,
-        "minSellingPrice": 40,
-        "maxSellingPrice": 140,
-        "notes":
-          "Adding apples or pumpkins will produce Apple Pie, Pumpkin Pie, or Fruit Cake",
-        "footNotes": ["1 Raw Gourmet Meat", "Same as max possible hearts"]
-      },
-      {
-        "item": "Honey Candy",
-        "requirements": ["Courser Bee Honey"],
-        "minHeartsRestored": 2,
-        "maxHeartsRestored": 18,
-        "minSellingPrice": 20,
-        "maxSellingPrice": 140,
-        "notes": "N/A",
-        "footNotes": []
-      },
-      {
         "item": "Honey Crepe",
         "requirements": [
           "Courser Bee Honey",
@@ -464,29 +331,6 @@
         "footNotes": ["Same as max possible hearts"]
       },
       {
-        "item": "Honeyed Apple",
-        "requirements": ["Apple", "Courser Bee Honey"],
-        "minHeartsRestored": 5,
-        "maxHeartsRestored": 17,
-        "minSellingPrice": 30,
-        "maxSellingPrice": 120,
-        "notes": "N/A",
-        "footNotes": ["4 Courser Bee Honeys", "Same as max possible hearts"]
-      },
-      {
-        "item": "Honeyed Fruits",
-        "requirements": ["Any fruit", "Courser Bee Honey"],
-        "minHeartsRestored": 5,
-        "maxHeartsRestored": 18,
-        "minSellingPrice": 30,
-        "maxSellingPrice": 120,
-        "notes": "Adding apples will instead produce Honeyed Apple",
-        "footNotes": [
-          "4 Courser Bee Honeys + 1 Palm Fruit",
-          "Same as max possible hearts"
-        ]
-      },
-      {
         "item": "Hot Buttered Apple",
         "requirements": ["Apple", "Goat Butter"],
         "minHeartsRestored": 2,
@@ -495,21 +339,6 @@
         "maxSellingPrice": 70,
         "notes": "N/A",
         "footNotes": ["4 Apples", "Same as max possible hearts"]
-      },
-      {
-        "item": "Nut Cake",
-        "requirements": [
-          "Acorn or Chickaloo Tree Nut",
-          "Goat Butter",
-          "Cane Sugar",
-          "Tabantha Wheat"
-        ],
-        "minHeartsRestored": 3,
-        "maxHeartsRestored": 12,
-        "minSellingPrice": 30,
-        "maxSellingPrice": 130,
-        "notes": "N/A",
-        "footNotes": ["1 Raw Gourmet Meat", "Same as max possible hearts"]
       }
 ]
 

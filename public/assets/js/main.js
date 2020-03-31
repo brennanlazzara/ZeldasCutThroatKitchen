@@ -36,7 +36,7 @@ $(document).ready(function () {
 
         //DESSERTS LIST
         for (let i = 0; i < data.desserts.length; i++) {
-            let li = $("<li>").text(data.desserts[i].item + '    $' + data.desserts[i].maxSellingPrice)
+            let li = $("<li>").text(data.desserts[i].item + '    $' + data.desserts[i].maxSellingPrice);
             $('#dessertsList').append(li)
         }
 
