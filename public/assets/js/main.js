@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-
+    // GET REQUESTS
     $.get("/api/recipes", function (data) {
         console.log(data);
 
@@ -65,4 +65,10 @@ $(document).ready(function () {
 
 
 // SOUPS
+
+// SKEWERS 
+
+// CURRYS
+
+// DESSERTS
 });

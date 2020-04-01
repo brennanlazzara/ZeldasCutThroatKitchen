@@ -5,7 +5,6 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-color: #464646;
-
   }
 
 
@@ -84,6 +83,7 @@ a:hover {
     opacity: 0.75;
 }
 
+
 /* FORMS */
 .signIn {
     margin-left: 10px;
@@ -132,11 +132,14 @@ h3 {
 }
 
 
-/* LIST */
+/* DROPDOWN LIST */
 ul {
+ font-family: fantasy;
  list-style: none; 
- font-weight: bold;
- color: red;
+ font-weight: bolder;
+ color: #f2f2f2; 
+
+ /* BACKGROUND */
  background-image: url('/images/tableBackground.jpg');
  background-position: center center;
  background-repeat: repeat;
@@ -144,16 +147,18 @@ ul {
  background-size: cover;
  background-color: #464646;
  margin: 0 auto !important;
- text-shadow:
- 3px  3px 0 #000,
--1px -1px 0 #000,  
- 1px -1px 0 #000,
--1px  1px 0 #000,
- 1px  1px 0 #000;
+ border: #333 2px groove;
+
 }
 
 .dropdown-menu {
     padding: 0 !important;
+}
+
+.dropdown {
+    font-family: fantasy;
+    color: red !important;
+    margin-left: 4%;
 }
 
 li {
@@ -163,11 +168,3 @@ li {
 /* MEDIA QUERIES */
 
 /* @media (min-width: 992px)
-
-.navbar-expand-lg .navbar-collapse {
-    display: -ms-flexbox!important;
-    display: flex!important;
-    -ms-flex-preferred-size: auto;
-    flex-basis: auto;
-    justify-content: flex-end;
-} */
