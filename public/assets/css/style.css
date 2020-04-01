@@ -84,6 +84,11 @@ a:hover {
 }
 
 
+.button {
+    text-transform: none;
+    background-color: red;
+}
+
 /* FORMS */
 .signIn {
     margin-left: 10px;
@@ -164,6 +169,7 @@ ul {
 li {
     margin: 0 auto;
 }
+
 
 /* MEDIA QUERIES */
 
