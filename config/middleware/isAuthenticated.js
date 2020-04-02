@@ -6,7 +6,6 @@ module.exports = function(req, res, next) {
     }
   
     // If the user isn't logged in, redirect them to the login page
-    alert("Please try a different username/password or click sign up to create a new account.");
     return res.redirect("/");
   };
   

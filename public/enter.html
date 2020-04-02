@@ -8,8 +8,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <script src="assets/js/enter.js"></script>
     <title>Cut Throat Kitchen</title>
 </head>
 
@@ -27,14 +25,14 @@
 
             <img src="images/crest.png" alt="crest" id="crest">
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <form class="form-inline my-2 my-lg-0" style="margin-right: 25%;" >
-                    <input class="form-control mr-sm-2 signIn" type="search" placeholder="Email" aria-label="Search">
-                    <input class="form-control mr-sm-2 signIn" type="search" placeholder="Password" aria-label="Search">
+                <form class="form-inline my-2 my-lg-0 signup" style="margin-right: 25%;" >
+                    <input class="form-control mr-sm-2 signIn" id="email-input" type="email" placeholder="Email">
+                    <input class="form-control mr-sm-2 signIn" id="password-input" type="password" placeholder="Password">
                     
                     <!-- HEY EMILY ITS HERE. NO SERIOUSLY ITS RIGHT HERE -->
                     <a href="/login"class="button" id="enterBTN">Enter At Your Own Risk</a>
                     
-                  <a href="/login" class="btn btn-outline-success my-2 my-sm-0" id="signUp" type="submit">Sign Up</a>
+                  <button class="btn btn-outline-success my-2 my-sm-0" id="signUp" type="submit">Sign Up</button>
 
                 </form>
             </div>
@@ -47,16 +45,14 @@
         </nav>
     </header>
 
-
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
+    <script src="assets/js/enter.js"></script>
 </body>
 
 </html>
