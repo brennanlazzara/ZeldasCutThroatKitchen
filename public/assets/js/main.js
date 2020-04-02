@@ -9,9 +9,7 @@ $(document).ready(function () {
             let li = $("<li>").text(data.drinks[i].item + '    $' + data.drinks[i].maxSellingPrice)
             $('#drinksList').append(li)
         }
-
-
-
+        
         //SOUPS LIST
         for (let i = 0; i < data.soups.length; i++) {
             let li = $("<li>").text(data.soups[i].item + '    $' + data.soups[i].maxSellingPrice)
@@ -44,6 +42,13 @@ $(document).ready(function () {
 
 
     });
+
+// USERS SELECTS
+
+
+
+
+
 
 
     //POST REQUESTS

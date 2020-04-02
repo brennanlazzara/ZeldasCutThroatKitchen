@@ -138,6 +138,7 @@ h3 {
     margin-top: 5%;
 }
 
+/* RESULTS DIV */
 #resultsDIV {
     background-image: url('/images/tableBackground.jpg');
     background-position: center center;
@@ -153,6 +154,7 @@ h3 {
     justify-content: center;
 }
 
+/* CHECKOUT DIV */
 #checkoutDIV {
     width: 50%;
     margin-right: 0;
