@@ -96,6 +96,8 @@ a:hover {
 }
 
 
+
+/* HEADER */
 h1 {
     justify-content: flex-start;
     color: red;
@@ -136,6 +138,26 @@ h3 {
     margin-top: 5%;
 }
 
+#resultsDIV {
+    background-image: url('/images/tableBackground.jpg');
+    background-position: center center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    margin: 13% auto !important;
+    border: #333 2px groove;
+    width: 25%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#checkoutDIV {
+    width: 50%;
+    margin-right: 0;
+}
+
 
 /* DROPDOWN LIST */
 ul {
@@ -143,8 +165,7 @@ ul {
  list-style: none; 
  font-weight: bolder;
  color: #f2f2f2; 
-
- /* BACKGROUND */
+ /* DROPDOWN LIST BACKGROUND */
  background-image: url('/images/tableBackground.jpg');
  background-position: center center;
  background-repeat: repeat;
