@@ -4,4 +4,9 @@ $(document).ready(function () {
     let hash = hashes[i].split('=');
     $("#checkoutDIV>ul").append("<li>" + decodeURIComponent(hash[1]) + "</li>");
   }
+
+
+  $("#checkout").on("click", function (){
+    $(this).text("April Fools!")
+  });
 });
