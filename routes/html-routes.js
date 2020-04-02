@@ -29,9 +29,6 @@ module.exports = function(app) {
 
 
   app.get("/checkout", function(req, res) {
-    if (req.user) {
-      res.redirect("/");
-    }
     res.sendFile(path.join(__dirname, "../public/checkout.html"));
   });
 };
