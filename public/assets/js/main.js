@@ -6,41 +6,32 @@ $(document).ready(function () {
 
         // DRINKS LIST 
         for (let i = 0; i < data.drinks.length; i++) {
-            let li = $("<li>").text(data.drinks[i].item + '    $' + data.drinks[i].maxSellingPrice)
-            $('#drinksList').append(li)
+            $('#drink' + (i+1)).text(data.drinks[i].item + '    $' + data.drinks[i].maxSellingPrice);
         }
         
         //SOUPS LIST
         for (let i = 0; i < data.soups.length; i++) {
-            let li = $("<li>").text(data.soups[i].item + '    $' + data.soups[i].maxSellingPrice)
-            $('#soupsList').append(li)
+            $('#soup' + (i+1)).text(data.soups[i].item + '    $' + data.soups[i].maxSellingPrice)
         }
 
 
 
         // SKEWERS LIST 
         for (let i = 0; i < data.skewers.length; i++) {
-            let li = $("<li>").text(data.skewers[i].item + '    $' + data.skewers[i].maxSellingPrice)
-            $('#skewersList').append(li)
+            $('#skewer' + (i+1)).text(data.skewers[i].item + '    $' + data.skewers[i].maxSellingPrice)
         }
 
 
 
         // CURRIES LIST
         for (let i = 0; i < data.currys.length; i++) {
-            let li = $("<li>").text(data.currys[i].item + '    $' + data.currys[i].maxSellingPrice)
-            $('#currysList').append(li)
+            $('#curry' + (i+1)).text(data.currys[i].item + '    $' + data.currys[i].maxSellingPrice)
         }
 
         //DESSERTS LIST
         for (let i = 0; i < data.desserts.length; i++) {
-            let li = $("<li>").text(data.desserts[i].item + '    $' + data.desserts[i].maxSellingPrice);
-            $('#dessertsList').append(li)
+            $('#dessert' + (i+1)).text(data.desserts[i].item + '    $' + data.desserts[i].maxSellingPrice);
         }
-
-
-
-
     });
 
 // USERS SELECTS
@@ -54,19 +45,32 @@ $(document).ready(function () {
     //POST REQUESTS
 
 //DRINKS LIST
-    $("#drinksForm").submit(function(e){
-        console.log('Send form')
-        e.preventDefault();
-        $.post("/api/recipes",
-        {
-          item: "Donald Duck",
-          maxsellingPrice: "Duckburg"
-        },
-        function(data, status){
-          alert("Data: " + data + "\nStatus: " + status);
-        });
-      });
+    // $("#drinksForm").submit(function(e){
+    //     console.log('Send form')
+    //     e.preventDefault();
+    //     $.post("/api/recipes",
+    //     {
+    //       item: "Donald Duck",
+    //       maxsellingPrice: "Duckburg"
+    //     },
+    //     function(data, status){
+    //       alert("Data: " + data + "\nStatus: " + status);
+    //     });
+    //   });
 
+    // $(".drink").on("click", function(){
+    //     alert();
+    //     $("#resultsDIV ul").append("<li>" + this.text + "<li>")
+    // });
+
+    $( "li" ).on( "click", function() {
+        $("#resultsDIV>ul").append( "<li>" + $( this ).text() + "</li>");
+    });
+
+
+    function addSoup(){
+        $(".resultsDIV>ul").append("<li>Pumpkin Stew $140<li>")
+    }
 
 
 // SOUPS
