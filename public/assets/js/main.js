@@ -5,16 +5,9 @@ $(document).ready(function () {
         console.log(data);
         // DRINKS LIST 
         for (let i = 0; i < data.drinks.length; i++) {
-<<<<<<< HEAD
-            let li = $("<li>").text(data.drinks[i].item + '    $' + data.drinks[i].maxSellingPrice)
-            $('#drinksList').append(li)
-        }        
-
-=======
             $('#drink' + (i+1)).text(data.drinks[i].item + '    $' + data.drinks[i].maxSellingPrice);
         }
         
->>>>>>> 84c7370df057267feebcfd8fa0acaec4ff13d84a
         //SOUPS LIST
         for (let i = 0; i < data.soups.length; i++) {
             $('#soup' + (i+1)).text(data.soups[i].item + '    $' + data.soups[i].maxSellingPrice)
