@@ -146,7 +146,7 @@ h3 {
     background-attachment: fixed;
     background-size: cover;
     background-color: #464646;
-    margin: 13% auto !important;
+    margin: 10% auto !important;
     border: #333 2px groove;
     width: 25%;
     height: 50%;
@@ -193,7 +193,34 @@ li {
     margin: 0 auto;
 }
 
+#checkoutTitle {
+    justify-content: flex-start;
+    color: red;
+    margin-left: 20px;
+    font-family: fantasy;
+    font-size: 2.5vw;
+    text-shadow:
+    3px  3px 0 #000,
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+   -1px  1px 0 #000,
+    1px  1px 0 #000;
+}
 
+
+#orderTitle {
+    text-align: center;
+    margin-top: 2%;
+    color: red;
+    font-family: fantasy;
+    font-size: 2.5vw;
+    text-shadow:
+    3px  3px 0 #000,
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+   -1px  1px 0 #000,
+    1px  1px 0 #000;
+}
 /* MEDIA QUERIES */
 
 /* @media (min-width: 992px)
