@@ -37,7 +37,6 @@ $(document).ready(function() {
 
   function handleLoginErr(err) {
     console.log(err.responseJSON);
-    $("#alert .msg").text(err.responseJSON);
-    $("#alert").fadeIn(500);
+    alert("Password length must be between 8 and 20 characters.");
   }
 });
