@@ -27,9 +27,11 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate.
 
-## Link
+## Github Repo Link
 https://github.com/BrennanPredmore/project2
 
+### Heroku Link
+https://zelda-cut-throat-kitchen.herokuapp.com/
 
 ## License
 No License required. These are public pages. 
