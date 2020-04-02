@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    var order = [];
 
     // GET REQUESTS
     $.get("/api/recipes", function (data) {
@@ -64,11 +65,32 @@ $(document).ready(function () {
 
     $( "li" ).on( "click", function() {
         $("#resultsDIV>ul").append( "<li>" + $( this ).text() + "</li>");
+        order.push($( this ).text());
     });
 
+    $("#placeOrder").on("click", function(){
+        let url = "/checkout?";
+        for(let i = 0; i < order.length; i++){
+            url += "order" + i + "=" + order[i] + "&";
+        }
+        console.log(url);
+        window.location.replace(url);
+    });
 
-    function addSoup(){
-        $(".resultsDIV>ul").append("<li>Pumpkin Stew $140<li>")
+    function generateUrl(url, params) {
+        var i = 0, key;
+        for (key in params) {
+            if (i === 0) {
+                url += "?";
+            } else {
+                url += "&";
+            }
+            url += key;
+            url += '=';
+            url += params[key];
+            i++;
+        }
+        return url;
     }
 
 
