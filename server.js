@@ -1,25 +1,22 @@
 var db = require("./models");
 const express = require("express");
+var session = require("express-session");
 const dotenv = require('dotenv');
+var passport = require("./config/passport");
+
 dotenv.config();
 
 let PORT = process.env.PORT || 8081;
 
 let app = express();
 
-
-
-// Serve static content for the app from the "public" directory in the application directory.
-app.use(express.static("public"));
-
-// Parse application body as JSON
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-
-
-
-
-// app.use(routes);
+app.use(express.static("public"));
+// We need to use sessions to keep track of our user's login status
+app.use(session({ secret: "keyboard cat", resave: true, saveUninitialized: true }));
+app.use(passport.initialize());
+app.use(passport.session());
 
 // Requiring our routes
 require("./routes/html-routes.js")(app);
