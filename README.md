@@ -3,8 +3,8 @@ This is composed of multiple folders (config, controllers, db, models, public vi
 This is a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM.
 The user can add, delete, update and view all types of burgers in two different columns (tastes good, doesnt tastes good)
 
-## SCREENSHOT OF THE APPLICATION!
-![Screenshot]()
+## GIF OF THE APPLICATION!
+![GIF](https://media.giphy.com/media/U2S8YrlEWxuyeTMV0P/giphy.gif)
 
 ## Heroku
 
